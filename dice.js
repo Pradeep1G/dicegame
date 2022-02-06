@@ -5,6 +5,8 @@ var y=Math.floor(Math.random()*6);
 var z=Math.floor(Math.random()*6);
 if(y>z){
   document.querySelector("h1").textContent="Player 1 Wins!."
+}else if(z===y){
+  document.querySelector("h1").textContent="Both Are Tie!."
 }else{
   document.querySelector("h1").textContent="Player 2 Wins!."
 }
