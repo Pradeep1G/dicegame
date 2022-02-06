@@ -7,7 +7,12 @@
 .dice {
   text-align: center;
   display: inline-block;
-
+}
+@media(max-width: 1028px){
+  .dice{
+    padding-top: 30%;
+    padding-bottom: 50%;
+  }
 }
 
 body {
@@ -20,6 +25,13 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
+}
+@media(max-width: 1028px){
+  h1{
+    font-size: 5rem;
+    padding-top: 15%;
+    padding-bottom: 10%;
+  }
 }
 
 p {
