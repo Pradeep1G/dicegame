@@ -1,5 +1,4 @@
 
-
 const x=["dice1.png", "dice2.png", "dice3.png", "dice4.png", "dice5.png", "dice6.png" ];
 var y=Math.floor(Math.random()*6);
 var z=Math.floor(Math.random()*6);
