@@ -51,3 +51,8 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+@media(max-width: 1028px){
+  footer{
+    padding-top: 40%;
+  }
+}
